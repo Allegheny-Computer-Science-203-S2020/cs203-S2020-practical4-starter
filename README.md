@@ -248,14 +248,14 @@ Running the Pytest test suite that calls the `compute_tf_cookbook.py` and
 checks its output should produce the following output:
 
 ```
-============================= test session starts =============================
-platform linux -- Python 3.7.3, pytest-5.3.5, py-1.8.1, pluggy-0.13.1
+Test session starts (platform: linux, Python 3.7.3, pytest 5.3.5, pytest-sugar 0.9.2)
 rootdir: /home/gkapfham/working/teaching/github-classroom/Allegheny-Computer-Science-203-S2020/solutions/cs203-S2020-practical4-solution
-collected 5 items
+plugins: sugar-0.9.2, clarity-0.3.0a0, cov-2.8.1
+collecting ...
+ tests/test_compute_tf_cookbook.py ✓✓✓✓✓                        100% ██████████
 
-tests/test_compute_tf_cookbook.py .....
-
-============================== 5 passed in 0.03s ==============================
+Results (0.06s):
+       5 passed
 ```
 
 Running the provided test suite will initially produce a coverage report like
@@ -296,18 +296,17 @@ assesses:
 - The file conftest.py exists in the tests directory
 - The file cover.sh exists in the scripts directory
 - The file __init__.py exists in the tests directory
-- The file lint.sh exists in the scripts directory!
+- The file lint.sh exists in the scripts directory
 - The file reflection.md exists in the writing directory
 - The file test_compute_tf_cookbook.py exists in the tests directory
 - The file test.sh exists in the scripts directory
 - The __init__.py in tests has exactly 0 of the `TODO` fragment
 - The lint.sh in scripts has exactly 0 of the `TODO` fragment
-- The reflection.md in writing has at least 500 word(s) in total
+- The reflection.md in writing has at least 400 word(s) in total
 - The reflection.md in writing has exactly 0 of the `Add Your Name Here` fragment
 - The reflection.md in writing has exactly 0 of the `TODO` fragment
 - The reflection.md in writing has exactly 1 of the `code_block` tag
-- The reflection.md in writing has exactly 2 of the `list` tag
-- The reflection.md in writing has exactly 9 of the `heading` tag
+- The reflection.md in writing has exactly 6 of the `heading` tag
 - The repository has at least 10 commit(s)
 - The test_compute_tf_cookbook.py in tests has at least 0 single-line Python comment(s)
 - The test_compute_tf_cookbook.py in tests has at least 5 multiple-line Python comment(s)
@@ -323,7 +322,7 @@ command `echo $?`).
 
 ```
         ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-        ┃ Passed 36/36 (100%) of checks for cmpsc-203-spring-2020-practical4! ┃
+        ┃ Passed 35/35 (100%) of checks for cmpsc-203-spring-2020-practical4! ┃
         ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
