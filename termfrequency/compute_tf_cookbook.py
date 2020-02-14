@@ -3,6 +3,13 @@
 import sys
 import string
 
+# TODO: Think carefully about the ways in which you can improve this program
+# so that it does not exhibit some of the red flags mentioned in the book
+# called "A Philosophy of Software Design". Specifically, think of how the
+# comments in this program might violate one of the red flags. Overall, please
+# try to improve this program while attempting to avoid any refactorings that
+# will fundamentally change it to a different programming style
+
 # The shared mutable data
 # pylint: disable=invalid-name
 data = []
